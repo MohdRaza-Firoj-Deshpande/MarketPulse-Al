@@ -1,10 +1,35 @@
-# MarketPulse AI: Predictive Analytics for Financial Market Insights
+MarketPulse AI: Predictive Analytics for Financial Market Insights
 
-MarketPulse AI uses machine learning and deep learning to predict market movements using financial, sentiment, and macroeconomic data.
+MarketPulse AI uses machine learning and deep learning to predict market movements by analyzing financial data, sentiment from social media, and macroeconomic indicators.
 
-## Features
+Features:
 - Real-time market data ingestion
 - Sentiment analysis using HuggingFace Transformers
-- LSTM & XGBoost forecasting
-- Streamlit dashboard for predictions
+- Forecasting models with LSTM and XGBoost
+- Interactive Streamlit dashboard to visualize predictions
 
+How to Run the Project:
+1. Clone the repository:
+   git clone https://github.com/MohdRaza-Firoj-Deshpande/MarketPulse-Al.git
+2. Change directory into the project folder:
+   cd MarketPulse-Al
+3. Install Python dependencies:
+   pip install -r requirements.txt
+4. Run the Streamlit dashboard app:
+   streamlit run app/dashboard.py
+
+Project Structure:
+MarketPulse-Al/
+├── data/               # Raw and processed financial and sentiment data files
+├── notebooks/          # Jupyter notebooks for exploratory data analysis and experiments
+├── src/                # Source code for model training and utilities
+├── app/                # Streamlit dashboard application files
+├── requirements.txt    # Python library dependencies
+└── README.md           # Project overview and instructions
+
+Future Work:
+- Extend model to include more advanced NLP features for sentiment analysis.
+- Add deployment scripts using Docker and cloud services.
+- Explore additional financial indicators for enhanced forecasting accuracy.
+- Improve dashboard with more interactive visualizations and performance optimization.
+- Integrate real-time alerts and notifications for market trend shifts.
