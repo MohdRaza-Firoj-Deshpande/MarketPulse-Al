@@ -1,0 +1,10 @@
+# MarketPulse AI: Predictive Analytics for Financial Market Insights
+
+MarketPulse AI uses machine learning and deep learning to predict market movements using financial, sentiment, and macroeconomic data.
+
+## Features
+- Real-time market data ingestion
+- Sentiment analysis using HuggingFace Transformers
+- LSTM & XGBoost forecasting
+- Streamlit dashboard for predictions
+
